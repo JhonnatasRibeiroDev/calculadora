@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora Básica</h1>
+    </header>
+    <div class="flex">
+        <main>
+            <div>
+                <div class="espaco">
+                    <p>Número 1:</p>
+                    <input class="opt" type="number" name="" id="num1">
+                </div>
+                <div class="opcao espaco">
+                    <select class="opt" name="" id="sinais">
+                        <option value="sinal">Sinal</option>
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="x">x</option>
+                        <option value="/">/</option>
+                    </select>
+                </div>
+                <div class="espaco">
+                    <p>Número 2:</p>
+                    <input class="opt" type="number" name="" id="num2">
+                </div>
+                
+                <div class="botao espaco">
+                    <button class="btn" onclick="clicar()">contar</button>
+                </div>
+                <div class="res" id="res">
+        
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>Criado por @JhonhRibeiro</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
